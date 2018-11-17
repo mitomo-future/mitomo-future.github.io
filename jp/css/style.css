@@ -74,12 +74,12 @@ header .navbar {
     font-weight: 700;
     line-height: 1em;
 	letter-spacing: -1px;
-    margin-top: 9px;
+    margin-top: 3px;
     padding: 0 0 0 15px;
 }
 .navbar-default .navbar-brand{
 color: #D81265;
-background: rgb(245, 138, 46);
+/*background: rgb(245, 138, 46);*/
 height: 114px;
 position: absolute;
 top: -28px;
@@ -269,10 +269,10 @@ header ul.nav li ul li ul {
   content:none;
 }
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:hover, .navbar-default .navbar-nav>.active>a:focus {
-color: #F58220;
+color: #0033FF;
 }
 .navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus {
-color: #F58220;
+color: #0033FF;
 background-color: transparent;
 }
 
@@ -286,7 +286,7 @@ ul.nav li.dropdown a {
 }
 .pageTitle{
 color: #fff;
-margin: 30px 0 3px;
+margin: 10px 0 3px;
 display: inline-block;
 }
  
@@ -580,7 +580,7 @@ position: relative;
 margin: 0;
 padding: 0;
 color: #F58A2E;
-background: #F58A2E;  margin-top: 3px;  
+background: #BAD3FF;  margin-top: 3px;  
 padding-top: 8px;
 border-bottom: 1px solid #CBCBCB;
 }
@@ -652,47 +652,6 @@ padding: 40px 0 0;
 	padding:0;
 }
 
-/*  aboutus
-================================ */
-
-hr.aboutus{
-  border-top: 3px double #F58A2E;
-}
-
-ul.about-categ{
-	margin:0;
-	padding:0;
-	list-style:none;
-}
-
-ul.about-categ li{
-	margin: 0; 
-	list-style: none;
-	font-size: 16px;
-	font-weight: 700;
-	border: 1px solid #F58A2E;
-	margin: 15px;
-}
-
-ul.about-categ li a{
-	display:block;
-	padding: 8px 20px;
-	color: #F58A2E;
-}
-ul.about-categ li.active{
-}
-ul.about-categ li.active a{
-    color: #fff;
-
-    background: #F58A2E;
-}
-ul.about-categ li.active a:hover, ul.about-categ li a:hover,ul.about-categ li a:focus,ul.about-categ li a:active {
-	text-decoration:none;
-	outline:0; 
-}
-
-/*  aboutus
-================================ */
 
 
 /*  Portfolio
@@ -1376,7 +1335,7 @@ ul.social-network li {
     bottom:0px;
     right:20px;
 	
-    background: #CF6A14;
+    background: #BAD3FF;
 	
 }
 
@@ -1496,7 +1455,7 @@ article img.pull-right, article .align-right{
 }
 .navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
   color: #5e5e5e;
-  background-color: rgb(245, 138, 46);
+  /*background-color: rgb(245, 138, 46);*/
 }
 .features .media.service-box {
   /* margin: 0px 0 25px; */
@@ -1696,11 +1655,11 @@ margin-top: 15px;
     padding-left: 0;
   }
 	.navbar-brand {
-		margin-top: 10px;
+		margin-top: 5px;
 		border-bottom: none;
 	}
 	.navbar-header {
-		margin-top: 20px;
+		margin-top: 10px;
 		border-bottom: none;
 	}
 	
@@ -1841,6 +1800,7 @@ li.active {
 		height:20px;
 		font-size:14px;
 	}
+
 
 }
 

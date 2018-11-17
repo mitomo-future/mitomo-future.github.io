@@ -652,6 +652,42 @@ padding: 40px 0 0;
 	padding:0;
 }
 
+hr.aboutus{
+  border-top: 3px double #F58A2E;
+}
+
+ul.about-categ{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+
+ul.about-categ li{
+	margin: 0; 
+	list-style: none;
+	font-size: 16px;
+	font-weight: 700;
+	border: 1px solid #F58A2E;
+	margin: 15px;
+}
+
+ul.about-categ li a{
+	display:block;
+	padding: 8px 20px;
+	color: #F58A2E;
+}
+ul.about-categ li.active{
+}
+ul.about-categ li.active a{
+    color: #fff;
+
+    background: #F58A2E;
+}
+ul.about-categ li.active a:hover, ul.about-categ li a:hover,ul.about-categ li a:focus,ul.about-categ li a:active {
+	text-decoration:none;
+	outline:0; 
+}
+
 
 
 /*  Portfolio

@@ -424,7 +424,7 @@ margin: auto;
 }
 .aboutUs{
 padding:40px 0;
-background: #F58A2E;
+background: #80BFFF;
 color: #fff;
 }
 .aboutUs h2{
@@ -653,7 +653,7 @@ padding: 40px 0 0;
 }
 
 hr.aboutus{
-  border-top: 3px double #F58A2E;
+  border-top: 3px double #80bfff;
 }
 
 ul.about-categ{
@@ -667,21 +667,21 @@ ul.about-categ li{
 	list-style: none;
 	font-size: 16px;
 	font-weight: 700;
-	border: 1px solid #F58A2E;
+	border: 1px solid #80bfff;
 	margin: 15px;
 }
 
 ul.about-categ li a{
 	display:block;
 	padding: 8px 20px;
-	color: #F58A2E;
+	color: #80bfff;
 }
 ul.about-categ li.active{
 }
 ul.about-categ li.active a{
     color: #fff;
 
-    background: #F58A2E;
+    background: #80bfff;
 }
 ul.about-categ li.active a:hover, ul.about-categ li a:hover,ul.about-categ li a:focus,ul.about-categ li a:active {
 	text-decoration:none;
